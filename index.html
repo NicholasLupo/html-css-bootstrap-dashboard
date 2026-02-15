@@ -46,7 +46,7 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="table col">
+                <div class="table col-12 col-lg-10">
                     <table class="table table-striped">
                         <thead>
                             <tr>
@@ -78,29 +78,37 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="list col">
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                            <label class="form-check-label" for="firstCheckbox">Chiamare segreteria</label>
-                        </li>
-                        <li class="list-group-item">
-                            <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-                            <label class="form-check-label" for="secondCheckbox">Mandare avvisi prestiti scaduti</label>
-                        </li>
-                        <li class="list-group-item">
-                            <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-                            <label class="form-check-label" for="thirdCheckbox">Ordinare nuovi libri</label>
-                        </li>
-                    </ul>
+                <div class="todo col-12 col-lg-2 border border-dark-subtle rounded-3 p-0 m-2">
+                    <header class="p-2 bg-secondary-subtle">
+                        <div class="title px-2">
+                            <h2>Todo</h2>
+                        </div>
+                    </header>
+                    <div class="list p-3">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                <label class="form-check-label" for="firstCheckbox">Chiamare segreteria</label>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                <label class="form-check-label" for="secondCheckbox">Mandare avvisi prestiti
+                                    scaduti</label>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                <label class="form-check-label" for="thirdCheckbox">Ordinare nuovi libri</label>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="faq border border-dark-subtle rounded-3 p-0">
-                    <header class="border-bottom p-2 bg-secondary-subtle">
+                <div class="faq col-12 col-lg-2 border border-dark-subtle rounded-3 p-0">
+                    <header class="p-2 bg-secondary-subtle">
                         <div class="title px-2">
                             <h2>F.A.Q</h2>
                         </div>
                     </header>
-                    <div class="accordion col m-2">
+                    <div class="accordion m-2">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
