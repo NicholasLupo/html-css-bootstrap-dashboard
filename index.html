@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-dark mb-4">
             <div class="container-fluid">
                 <img src="/img/icon/duck.png" alt="duck" style="width: 4rem; padding-right: 1rem;">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -45,11 +45,11 @@
         </nav>
     </header>
     <main>
-        <div class="container">
-            <div class="row">
-                <div class="table col-lg-9">
+        <div class="container d-flex">
+            <div class="row m-4">
+                <div class="table">
                     <header>
-                        <div class="flex d-flex justify-content-between mt-4 mb-4">
+                        <div class="flex d-flex justify-content-between mb-4">
                             <div class="title p-0">
                                 <h2> Catalogo Libri </h2>
                             </div>
@@ -323,7 +323,9 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="todo col-lg-3 border border-dark-subtle rounded-3 p-0 mb-4">
+            </div>
+            <div class="row flex-column justify-content-lg-start mt-4">
+                <div class="todo border border-dark-subtle rounded-3 p-0 mb-4">
                     <header class="p-2 bg-secondary-subtle">
                         <div class="title px-2">
                             <h2>Todo</h2>
@@ -347,7 +349,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="faq col-lg-3 border border-dark-subtle rounded-3 p-0 mb-4">
+                <div class="faq border border-dark-subtle rounded-3 p-0 mb-4">
                     <header class="p-2 bg-secondary-subtle">
                         <div class="title px-2">
                             <h2>F.A.Q</h2>
@@ -367,7 +369,8 @@
                                     data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">Placeholder content for this accordion, which is
                                         intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the first item’s
+                                        demonstrate the <code>.accordion-flush</code> class. This is the first
+                                        item’s
                                         accordion body.</div>
                                 </div>
                             </div>
@@ -383,8 +386,10 @@
                                     data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">Placeholder content for this accordion, which is
                                         intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the second item’s
-                                        accordion body. Let’s imagine this being filled with some actual content.</div>
+                                        demonstrate the <code>.accordion-flush</code> class. This is the second
+                                        item’s
+                                        accordion body. Let’s imagine this being filled with some actual content.
+                                    </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
@@ -399,8 +404,10 @@
                                     data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">Placeholder content for this accordion, which is
                                         intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the third item’s
-                                        accordion body. Nothing more exciting happening here in terms of content, but
+                                        demonstrate the <code>.accordion-flush</code> class. This is the third
+                                        item’s
+                                        accordion body. Nothing more exciting happening here in terms of content,
+                                        but
                                         just
                                         filling up the space to make it look, at least at first glance, a bit more
                                         representative of how this would look in a real-world application.</div>
