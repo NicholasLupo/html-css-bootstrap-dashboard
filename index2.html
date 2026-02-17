@@ -50,16 +50,56 @@
     <main>
         <div class="container">
             <div class="row">
-                <header>
+                <header class="mb-3 p-0">
                     <h2> Nuovo Libro </h2>
                 </header>
-                <div class="info-card">
-                    
+                <div class="col col-lg-6 ps-0">
+                    <h6> Nome autore </h6>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Inserisci il nome dell'autore"
+                            aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <div class="col col-lg-6">
+                    <h6> Cognome autore </h6>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Inserisci il cognome dell'autore"
+                            aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-12 ps-0">
+                    <h6> Titolo </h6>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Inserisci il titolo del libro"
+                            aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <span class="opacity-75"> Titolo versione italiana</span>
+                </div>
+                <div class="col-12 col-lg-4 ps-0 mt-3">
+                    <h6> Genere </h6>
+                    <select class="form-select" id="inputGroupSelect01">
+                        <option selected>Scegli il genere...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-12 col-lg-4 ps-0 mt-3">
+                    <h6> Anno di Pubblicazione </h6>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Inserisci l'anno"
+                            aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 ps-0 mt-3">
+                    <h6> ISBN# </h6>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Inserisci il codice ISBN#"
+                            aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
                 </div>
                 <hr>
-                <div class="notes-addbook">
-
-                </div>
+                <div class="notes-addbook"></div>
             </div>
         </div>
     </main>
